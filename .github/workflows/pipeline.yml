@@ -70,7 +70,7 @@ jobs:
           git config --global user.name "deepakann"
           git add deploy/deploy.yaml
           git commit -m "Update deploy.yaml with new image version - ${{ env.VERSION }}"
-          git remote set-url origin https://deepakann:${{ secrets.GITHUB_TOKEN }}@github.com/dkannaiy/GitHub-Actions-ArgoCD.git
+          git remote set-url origin https://deepakann:${{ secrets.GITHUB_TOKEN }}@github.com/deepakann/GitHub-Actions-ArgoCD.git
           git push origin master
 
 
